@@ -62,7 +62,7 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    if message.author.id != 1432525246325457062: #this is my id change it!
+    if message.author.id != 1432525246325457062: #this is my id change it! if u dont change this it just wont work 
         return
     with open("dmlog.txt", "a", encoding="utf-8") as f:
      f.write(f"{message.author}: {message.content}\n")
@@ -88,8 +88,8 @@ async def on_message(message):
         await msg.delete()
         print("ghost pinged!")
 
-    if message.author.id == 1432525246325457062:
-       member = message.guild.get_member(1432525246325457062)
+    if message.author.id == 1432525246325457062: #change this if u want
+       member = message.guild.get_member(1432525246325457062) # and this
        if member:
             await member.timeout(timedelta(minutes=10))
             await message.channel.send(f"{member.name} tried talking LOL\n https://media.discordapp.net/attachments/1046259533569331310/1048557228816347207/A0B58B30-1C2F-4AB7-AD6A-C0DD220C942D.gif?ex=69c31a44&is=69c1c8c4&hm=86fb2335dc1a0d4040407191e0889d9e09768243a391266b06283c40fd336ac2&    \n this was inspired by evass")
