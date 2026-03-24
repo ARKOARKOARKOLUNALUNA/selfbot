@@ -24,7 +24,8 @@
 # + added auto react how can ppl not figure this out its 2 lines 😭
 # + 3/22/26
 # + added uh menu boxes and reactions working on so that it will auto react when u send an emoji
-# + removed that trying to make ghost ping set off with "ghost"
+# + removed that, trying to make ghost ping set off with "ghost"
+# + made ghost ping work
 # + 3/23/26
 # + added auto timeout using from datetime import timedelta to control times and shit
 # + cleaned up teh code a little and deleted auto dm was annyoing the code is still at the bottom 
